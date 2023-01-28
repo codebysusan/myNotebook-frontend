@@ -1,11 +1,10 @@
-import './App.css';
+import "./App.css";
+import RoutesFile from "./components/RoutesFile";
 
 function App() {
   return (
     <div className="App">
-      <h1>
-        
-      </h1>
+      <RoutesFile/>
     </div>
   );
 }
