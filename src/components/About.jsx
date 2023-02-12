@@ -1,11 +1,11 @@
-import React from 'react'
-import Navbar from './Navbar'
+// import React, {} from 'react'
+
+// import NoteContext from '../context/notes/noteContext';
 
 function About() {
+  
   return (
     <div>
-      <Navbar/>
-      <p>This is about</p>
     </div>
   )
 }

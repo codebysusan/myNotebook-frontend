@@ -1,11 +1,14 @@
 import "./App.css";
 import RoutesFile from "./components/RoutesFile";
+import NoteState from "./context/notes/NoteState";
 
 function App() {
   return (
-    <div className="App">
-      <RoutesFile/>
-    </div>
+    <NoteState>
+      <div className="App">
+        <RoutesFile />
+      </div>
+    </NoteState>
   );
 }
 
