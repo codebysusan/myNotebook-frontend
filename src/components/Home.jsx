@@ -1,11 +1,10 @@
 import React from "react";
-
+import Note from "./Note";
 function Home() {
+  
   return (
     <div className="m-2">
-      <h1 className="text-2xl font-semibold">Your Notes</h1>
       <h1 className="text-2xl font-semibold">Add a note</h1>
-
       <div className="m-4">
         <form>
           <div className="mb-6">
@@ -63,6 +62,10 @@ function Home() {
           </button>
         </form>
       </div>
+
+      <Note/>
+
+      
     </div>
   );
 }
